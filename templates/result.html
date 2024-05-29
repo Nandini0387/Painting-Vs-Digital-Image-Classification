@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light background color */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            border: 2px solid #4CAF50; /* Border color */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        .resized-image {
+            border: 2px solid #333;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .result-text {
+            color: #333; /* Plain text color */
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        .label-text {
+            color: #006400; /* Dark green color */
+            font-weight: bold;
+            font-size: 1em;
+        }
+        .confidence-text {
+            color: #f03388; /* Match with interface */
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #4CAF50; /* Button color */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Classification Result</h1>
+        <img src="data:image/png;base64,{{ img_data }}" alt="Resized Image" class="resized-image" width="224" height="224"/><br>
+        <p class="result-text">The Image is most likely a <span class="label-text">{{ result.predicted_class.upper() }}</span></p>
+        <p class="confidence-text">Confidence {{ result.confidence }}</p>
+        <a href="/">Upload another image</a>
+    </div>
+</body>
+</html>
