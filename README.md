@@ -10,6 +10,7 @@ The project includes:
 2. **Web Interface**: A Flask-based web application to upload images and predict if they are paintings or digital images.
 
 ## Directory Structure
+'''
 PaintingVsDigitalImageClassification/
 │
 ├── static/
@@ -26,7 +27,7 @@ PaintingVsDigitalImageClassification/
 │   └── test/  
 ├── train_model.py   
 └── requirements.txt 
-
+'''
 ## Setup Instructions in Visual Studio Code
 
 ### Clone the Repository
