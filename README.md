@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ### Dataset
 
-Download the dataset from this link to dataset.
+Download the dataset from this link to [dataset](https://drive.google.com/drive/folders/1plINLSLzs73p16Vp3dUex1-UYQQn0ZeK?usp=drive_link).
 
 ## Training the Model
 Navigate to the Project Directory and run:
