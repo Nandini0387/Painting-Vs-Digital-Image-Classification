@@ -56,7 +56,8 @@ Download the dataset from this link to dataset.
 ## Training the Model
 Navigate to the Project Directory and run:
 
-cd painting-vs-digital-image-prediction #
+cd painting-vs-digital-image-prediction 
+
 python train_model.py
 
 ## Training Output
