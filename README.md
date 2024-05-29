@@ -1,4 +1,4 @@
-# Painting Vs Digital Image Prediction
+# Painting Vs Digital Image Classification
 
 This project consists of two main components: a machine learning model for predicting whether an image is a painting or a digital image, and a web interface to interact with the model.
 
@@ -13,51 +13,50 @@ The project includes:
 PaintingVsDigitalImageClassification/
 │
 ├── static/
-│   └── uploads/  # Directory to store uploaded images
+│   └── uploads/  
 ├── templates/
 │   ├── upload.html
 │   └── result.html
-├── app.py  # Flask application code
+├── app.py  
 ├── model/
-│   └── B4Model_saved.pth  # Trained model file
+│   └── B4Model_saved.pth  
 ├── datasets/
-│   ├── train/  # Training dataset
-│   ├── validation/  # Validation dataset
-│   └── test/  # Test dataset
-├── train_model.py  # Model training script 
-└── requirements.txt  # List of dependencies
+│   ├── train/ 
+│   ├── validation/ 
+│   └── test/  
+├── train_model.py   
+└── requirements.txt 
 
 ## Setup Instructions in Visual Studio Code
 
 ### Clone the Repository
 
-git clone <repository_url>
+git clone https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification
 
 
-## Set Up Virtual Environment
-Navigate to the Project Directory:
+### Set Up Virtual Environment
 
 cd painting-vs-digital-image-prediction
 
 
-## Create and Activate Virtual Environment:
+### Create and Activate Virtual Environment:
 
 python -m venv venv
 
 source ../venv/bin/activate  # On Windows, use ..\venv\Scripts\activate
 
-## Install Dependencies
+### Install Dependencies
 
 pip install -r requirements.txt
 
-## Dataset
+### Dataset
 
 Download the dataset from this link to dataset.
 
-# Training the Model
+## Training the Model
 Navigate to the Project Directory and run:
 
-cd painting-vs-digital-image-prediction
+cd painting-vs-digital-image-prediction #
 python train_model.py
 
 ## Training Output
@@ -67,17 +66,17 @@ A trained model will be saved in the model/ directory.
 ## Steps to Run the Web Interface in VS code
 1. Activate Virtual Environment:
 
-source ../venv/bin/activate  # On Windows, use ..\venv\Scripts\activate
+  source ../venv/bin/activate  # On Windows, use ..\venv\Scripts\activate
 
 2. Install Dependencies:
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 3. Run the Flask App:
 
-python app.py
+  python app.py
 
 4. Access the Web Interface:
 
-Open a web browser.
-Go to http://localhost:5000 to access the web interface.
+  Open a web browser.
+  Go to http://localhost:5000 to access the web interface.
