@@ -31,7 +31,7 @@ PaintingVsDigitalImageClassification/
 
 ### Clone the Repository
 
-git clone https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification
+git clone https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification.git
 
 
 ### Set Up Virtual Environment
