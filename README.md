@@ -84,6 +84,6 @@ A trained model will be saved in the model/ directory.
   Go to http://localhost:5000 to access the web interface.
   The model trained on vareity of Painting and Digital Images giving an incredible accuracy over 98%
   
-<img src="https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification/assets/137043974/9918efcb-f2e0-43f2-ac6f-400a29e5a0a1" width="500" height="350">
+<img src="https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification/assets/137043974/9918efcb-f2e0-43f2-ac6f-400a29e5a0a1" width="700" height="400">
 <img src="https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification/assets/137043974/e21e4233-629e-4531-bd5a-bcef3a3058ca" width="300" height="400">
 <img src="https://github.com/Nandini0387/Painting-Vs-Digital-Image-Classification/assets/137043974/cbc80d5c-b529-4853-b0d6-6e1569c2aead" width="300" height="400">
